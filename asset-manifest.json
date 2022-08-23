@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/trybeflix/static/css/main.3aee7221.css",
+    "main.js": "/trybeflix/static/js/main.1019eb2b.js",
+    "static/media/jojo.png": "/trybeflix/static/media/jojo.e34aa5e7e231519bc7b8.png",
+    "static/media/op.jpg": "/trybeflix/static/media/op.772387fa4df197173057.jpg",
+    "static/media/netflixBackground.jpg": "/trybeflix/static/media/netflixBackground.533bebeb35d5bdc47c8d.jpg",
+    "static/media/attack.jpg": "/trybeflix/static/media/attack.3f0a349e565127e9d189.jpg",
+    "static/media/witcher.jpg": "/trybeflix/static/media/witcher.135062caf6aa27a18c2e.jpg",
+    "static/media/sonic.jpg": "/trybeflix/static/media/sonic.3792a124c5f893585770.jpg",
+    "static/media/netflix.png": "/trybeflix/static/media/netflix.640d8b073a1bb9ce14d2.png",
+    "index.html": "/trybeflix/index.html",
+    "main.3aee7221.css.map": "/trybeflix/static/css/main.3aee7221.css.map",
+    "main.1019eb2b.js.map": "/trybeflix/static/js/main.1019eb2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3aee7221.css",
+    "static/js/main.1019eb2b.js"
+  ]
+}
