@@ -1,0 +1,26 @@
+.footer {
+    background: #ED213A;  
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+    background: linear-gradient(to right, #93291E, #ED213A); 
+    color: #FFF;
+    padding: 2.3em;
+    text-align: center;
+    padding: 57.1px;
+    box-shadow: rgb(37, 35, 35) 0px 1px 7px 4px;
+}
+
+.copyright {
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 17px;
+}
+
+.copyright span {
+    color: rgb(255, 255, 255);
+}
+
+.copyright span:hover {
+    color:white
+}
+
+

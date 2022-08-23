@@ -1,13 +1,158 @@
 body {
   margin: 0;
+  background-image: url('./img/netflixBackground.jpg');
+  background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #303030;
+  color: white;
+}
+
+.boximg {
+  margin-right: 10px;
+  box-shadow: rgb(37, 35, 35) 0px 0px 10px 5px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title {
+  font-size: 35px;
+}
+
+main {
+  display: flex;
+  height: 68.9vh;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.movies {
+  margin-left: 20px;
+}
+
+.movie-name {
+  padding: 5px;
+  margin-bottom: 0;
+  box-shadow: rgb(41, 39, 39) 0px 0px 7px 10px;
+  background-color: rgb(41, 39, 39)
+}
+
+.movie-name:hover {
+  transition: 1s;
+  background-color: rgb(163, 46, 46);
+}
+
+.movie-list {
+  list-style: none;
+  padding: 5px;
+  box-shadow: rgb(37, 35, 35) 0px 0px 10px 5px;
+  margin-top: 0;
+  background-color: #222;
+}
+
+.movie-list li {
+  padding: 10px 0;
+}
+
+.movie-list li:hover {
+  cursor: pointer;
+  color: #ffffff80;
+}
+
+.Header {
+  box-shadow: rgb(37, 35, 35) 0px 1px 7px 4px;
+  top: 0;
+  width: 100;
+  height: 40px;
+  background: #ED213A;  
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+  background: linear-gradient(to right, #93291E, #ED213A);
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Header h1 {
+  font-size: 44px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .main {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .title {
+    margin: 0;
+    margin-top: 270px;
+    margin-bottom: 15px;
+    margin-left: 17px;
+  }  
+
+  .bio {
+    margin-bottom: 113px;
+    margin-left: 17px;
+  }
+
+  .movies {
+    margin-top: -10%;
+    margin-right: 20px;
+  }
+
+  .footer {
+    height: 5vh;
+    margin-top: 290px;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+  .main {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .boximg {
+    margin-left: 4px;
+    width: 360px;
+    height: 240px;
+  }
+
+
+  .title {
+    margin: 0;
+    margin-top: 380px;
+    margin-bottom: 15px;
+
+  }  
+
+  .bio {
+    margin-bottom: 65px;
+    margin-left: 17px;
+  }
+
+  .movies {
+    margin-top: -10%;
+    margin-right: 20px;
+  }
+
+  .footer {
+    margin-top: 290px;
+  }
+
+}
+
