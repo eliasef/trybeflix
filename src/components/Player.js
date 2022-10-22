@@ -12,6 +12,7 @@ import witcher from '../img/witcher.jpg';
 class Player extends React.Component {
   render() {
     const { movie, category } = this.props;
+
     let src = netflix;
 
     switch (movie.title) {

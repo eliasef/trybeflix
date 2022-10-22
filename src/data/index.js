@@ -1,7 +1,7 @@
 const categories = [
   {
     id: 1,
-    name: 'Anime',
+    name: 'Animes',
     movies: [
       { id: 1, title: 'One Piece', released: 1997 },
       { id: 2, title: 'JoJo\'s Bizarre Adventure', released: 1986 },
@@ -10,7 +10,7 @@ const categories = [
   },
   {
     id: 2,
-    name: 'Animação',
+    name: 'Animações',
     movies: [{ id: 4, title: 'Sonic - O Filme', released: 2020 }],
   },
   {

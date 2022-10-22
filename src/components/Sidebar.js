@@ -28,7 +28,7 @@ class Sidebar extends React.Component {
                 <li
                   key={ movie.id }
                   role="menuitem"
-                  onKeyDown={ () => dispatch(seletectMovie(category, movie)) }
+                  onKeyDown={ () => dispatch(actionSelectMovie(category, movie)) }
                   onClick={ () => dispatch(actionSelectMovie(category, movie)) }
                 >
                   {movie.title}
